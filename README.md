@@ -1,35 +1,26 @@
+<p align="center">
+  <svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="200" fill="#0e0e11"/>
+    <line x1="0" y1="199" x2="1200" y2="199" stroke="#ffffff" stroke-opacity="0.05"/>
+    <text x="100" y="105"
+      font-family="-apple-system, BlinkMacSystemFont, Inter, Segoe UI, sans-serif"
+      font-size="48"
+      fill="#f4f4f5"
+      letter-spacing="3"
+      style="font-weight:500;">
+      Luxco
+    </text>
+    <text x="100" y="135"
+      font-family="-apple-system, Inter, sans-serif"
+      font-size="15"
+      fill="#71717a"
+      letter-spacing="1.2">
+      Systems for scale and clarity
+    </text>
+    <circle cx="1080" cy="100" r="2" fill="#ffffff" opacity="0.15"/>
+  </svg>
+</p>
 
-<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Background (soft, not pure black) -->
-  <rect width="1200" height="200" fill="#0e0e11"/>
-
-  <!-- Subtle divider -->
-  <line x1="0" y1="199" x2="1200" y2="199" stroke="#ffffff" stroke-opacity="0.05"/>
-
-  <!-- Title -->
-  <text x="100" y="105"
-    font-family="-apple-system, BlinkMacSystemFont, Inter, Segoe UI, sans-serif"
-    font-size="48"
-    fill="#f4f4f5"
-    letter-spacing="3"
-    style="font-weight:500;">
-    Luxco
-  </text>
-
-  <!-- Micro tagline -->
-  <text x="100" y="135"
-    font-family="-apple-system, Inter, sans-serif"
-    font-size="15"
-    fill="#71717a"
-    letter-spacing="1.2">
-    Systems for scale and clarity
-  </text>
-
-  <!-- Ultra subtle right alignment mark -->
-  <circle cx="1080" cy="100" r="2" fill="#ffffff" opacity="0.15"/>
-
-</svg>
 ---
 
 <p align="center">
@@ -58,20 +49,24 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-e34f26?style=flat-square&logo=html5&logoColor=white" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572b6?style=flat-square&logo=css3&logoColor=white" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=111827" /></a>
+  <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" /></a>
+  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /></a>
+  <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /></a>
+  <a href="https://jupyter.org/" target="_blank"><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /></a>
 </p>
 
 ---
 
 ## Concept Vision
 
-Krushi AI Platform is built as a modern agriculture web system where design quality and practical AI utility work together in one product.  
+Krushi AI Platform is built as a modern agriculture web system where design quality and practical AI utility work together in one product.
 It combines:
 
-- a clean multi-page agricultural interface
-- a crop medicine recommendation workflow
-- an AI assistant for farming-related responses
-- structured domain context (crop, problem, weather, soil, stage, severity)
-- educational and engagement sections (reel/video/media pages)
+* a clean multi-page agricultural interface
+* a crop medicine recommendation workflow
+* an AI assistant for farming-related responses
+* structured domain context (crop, problem, weather, soil, stage, severity)
+* educational and engagement sections (reel/video/media pages)
 
 This project is designed for portfolio strength, learning depth, and real-world agriculture-tech presentation.
 
@@ -105,24 +100,29 @@ flowchart LR
 ## High-Impact Features
 
 ### 1) Multi-Page Agriculture Experience
-- Dedicated pages for home, krushi, chatbot, prediction, reel, sale, and machines.
-- Structured user flow designed for discovery, support, and action.
+
+* Dedicated pages for home, krushi, chatbot, prediction, reel, sale, and machines.
+* Structured user flow designed for discovery, support, and action.
 
 ### 2) Crop Medicine Prediction Engine
-- Input dimensions: crop, problem, weather, soil, growth stage, severity.
-- Uses a `DecisionTreeClassifier` with one-hot encoding over the agriculture dataset.
+
+* Input dimensions: crop, problem, weather, soil, growth stage, severity.
+* Uses a `DecisionTreeClassifier` with one-hot encoding over the agriculture dataset.
 
 ### 3) AI Farming Assistant
-- LangChain + Ollama based conversational support.
-- Produces explanation, summary, examples, and optional resource links.
+
+* LangChain + Ollama based conversational support.
+* Produces explanation, summary, examples, and optional resource links.
 
 ### 4) Context-Driven Suggestion Layer
-- Prediction output is injected into an expert-style prompt template.
-- Returns actionable guidance aligned with model prediction context.
+
+* Prediction output is injected into an expert-style prompt template.
+* Returns actionable guidance aligned with model prediction context.
 
 ### 5) Modern Presentation Layer
-- Portfolio-ready front-end pages with media sections and agriculture storytelling.
-- Built to feel like a complete digital product, not only a demo script.
+
+* Portfolio-ready front-end pages with media sections and agriculture storytelling.
+* Built to feel like a complete digital product, not only a demo script.
 
 ---
 
@@ -137,11 +137,11 @@ flowchart LR
   <img src="https://img.shields.io/badge/HTML5-CSS3-JS?style=flat-square&color=2563eb" />
 </p>
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Flask (Python)
-- **ML:** OneHotEncoder + DecisionTreeClassifier
-- **LLM:** ChatOllama (`mistral`) through LangChain
-- **Data Source:** `professional_crop_medicine_dataset_6000_rows.csv`
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Flask (Python)
+* **ML:** OneHotEncoder + DecisionTreeClassifier
+* **LLM:** ChatOllama (`mistral`) through LangChain
+* **Data Source:** `professional_crop_medicine_dataset_6000_rows.csv`
 
 ---
 
@@ -169,29 +169,29 @@ sequenceDiagram
 
 ## Project Concepts Covered
 
-- Rule-based web routing with Flask templates
-- Feature engineering via categorical encoding
-- ML inference integration in web runtime
-- Prompt engineering for domain-specific guidance
-- Multi-output AI response design (explain/summary/example/resources)
-- Hybrid pipeline: deterministic ML + generative LLM
-- Product-oriented UI structure for technical storytelling
+* Rule-based web routing with Flask templates
+* Feature engineering via categorical encoding
+* ML inference integration in web runtime
+* Prompt engineering for domain-specific guidance
+* Multi-output AI response design (explain/summary/example/resources)
+* Hybrid pipeline: deterministic ML + generative LLM
+* Product-oriented UI structure for technical storytelling
 
 ---
 
 ## Routes Overview
 
-| Route | Method | Purpose |
-|---|---|---|
-| `/` | GET | Landing page |
-| `/krushi` | GET | Agriculture content page |
-| `/sale` | GET | Sale page |
-| `/machines` | GET | Machines page |
-| `/chatbot` | GET | Chat interface page |
-| `/predict` | GET | Prediction page |
-| `/predict` | POST | Prediction + AI suggestion pipeline |
-| `/reel` | GET | Reel/video page |
-| `/get` | POST | Chatbot JSON response endpoint |
+| Route       | Method | Purpose                             |
+| ----------- | ------ | ----------------------------------- |
+| `/`         | GET    | Landing page                        |
+| `/krushi`   | GET    | Agriculture content page            |
+| `/sale`     | GET    | Sale page                           |
+| `/machines` | GET    | Machines page                       |
+| `/chatbot`  | GET    | Chat interface page                 |
+| `/predict`  | GET    | Prediction page                     |
+| `/predict`  | POST   | Prediction + AI suggestion pipeline |
+| `/reel`     | GET    | Reel/video page                     |
+| `/get`      | POST   | Chatbot JSON response endpoint      |
 
 ---
 
@@ -204,10 +204,20 @@ again chatbot app for clearly flask/
 ├── llm_chain.py
 ├── stream_api.py
 ├── video_pr/
+├── static/
+│   └── video_pr.mp4
 ├── professional_crop_medicine_dataset_6000_rows.csv
 ├── templates/
 └── README.md
 ```
+
+---
+
+## Demo Video
+
+<p align="center">
+  <video src="static/video_pr.mp4" controls width="800"></video>
+</p>
 
 ---
 
@@ -224,22 +234,23 @@ Open: `http://127.0.0.1:5000`
 
 ## Future Upgrade Directions
 
-- Add confidence scores and explanation traces for prediction decisions
-- Introduce dataset versioning and model persistence workflow
-- Add multilingual responses and region-aware recommendations
-- Create user history and analytics dashboard for advisory tracking
-- Integrate weather APIs and location-aware agronomy context
+* Add confidence scores and explanation traces for prediction decisions
+* Introduce dataset versioning and model persistence workflow
+* Add multilingual responses and region-aware recommendations
+* Create user history and analytics dashboard for advisory tracking
+* Integrate weather APIs and location-aware agronomy context
 
 ---
 
 ## Contribution Direction
 
 Contributions are welcome in:
-- model improvement and evaluation
-- UI system enhancement
-- prompt quality refinement
-- API hardening and validation
-- architecture modularization
+
+* model improvement and evaluation
+* UI system enhancement
+* prompt quality refinement
+* API hardening and validation
+* architecture modularization
 
 ---
 
