@@ -1,35 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
 
-  <!-- Background -->
-  <rect width="1200" height="240" fill="#0d1117"/>
-
-  <!-- Top subtle line -->
-  <rect x="0" y="0" width="1200" height="1" fill="#30363d"/>
-
-  <!-- Left accent -->
-  <rect x="80" y="80" width="3" height="80" fill="#8b949e"/>
-
-  <!-- Title -->
-  <text x="110" y="120"
-        fill="#e6edf3"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="48"
-        letter-spacing="3">
-    LUXCO
-  </text>
-
-  <!-- Tagline -->
-  <text x="110" y="150"
-        fill="#8b949e"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="16">
-    Systems • Infrastructure • Precision
-  </text>
-
-  <!-- Bottom divider -->
-  <rect x="0" y="239" width="1200" height="1" fill="#30363d"/>
-
-</svg>
 ![Luxco Banner](./luxco-banner.svg)
 ---
 
