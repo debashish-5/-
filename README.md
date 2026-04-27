@@ -1,6 +1,7 @@
 # KRUSHI AI PLATFORM
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Project-KRUSHI%20AI%20PLATFORM-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Flask-Backend-1f6feb?style=for-the-badge&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-LLM%20Orchestration-7c3aed?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Ollama-Local%20Model-059669?style=for-the-badge" />
@@ -10,6 +11,21 @@
 
 <p align="center">
   <strong>Full-stack agriculture intelligence system for crop problem support, medicine prediction, AI guidance, and immersive learning pages.</strong>
+</p>
+
+---
+
+## Skills Stickers (Linked)
+
+<p>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" /></a>
+  <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /></a>
+  <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikitlearn&logoColor=white" /></a>
+  <a href="https://www.langchain.com/" target="_blank"><img src="https://img.shields.io/badge/LangChain-121212?style=flat-square" /></a>
+  <a href="https://ollama.com/" target="_blank"><img src="https://img.shields.io/badge/Ollama-111827?style=flat-square" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-e34f26?style=flat-square&logo=html5&logoColor=white" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572b6?style=flat-square&logo=css3&logoColor=white" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=111827" /></a>
 </p>
 
 ---
@@ -155,6 +171,7 @@ again chatbot app for clearly flask/
 ├── model.py
 ├── llm_chain.py
 ├── stream_api.py
+├── video_pr/
 ├── professional_crop_medicine_dataset_6000_rows.csv
 ├── templates/
 └── README.md
