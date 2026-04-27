@@ -1,4 +1,9 @@
 <p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0e0e11,50:111827,100:14532d&text=Luxco&fontSize=55&fontColor=f4f4f5&animation=fadeIn&fontAlignY=38&desc=Systems%20for%20scale%20and%20clarity&descAlignY=60&descSize=18" />
+</p>
+
+
+<p align="center">
   <svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
     <rect width="1200" height="200" fill="#0e0e11"/>
     <line x1="0" y1="199" x2="1200" y2="199" stroke="#ffffff" stroke-opacity="0.05"/>
