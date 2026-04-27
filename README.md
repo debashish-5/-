@@ -1,4 +1,34 @@
-# KRUSHI AI PLATFORM
+<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (soft, not pure black) -->
+  <rect width="1200" height="200" fill="#0e0e11"/>
+
+  <!-- Subtle divider -->
+  <line x1="0" y1="199" x2="1200" y2="199" stroke="#ffffff" stroke-opacity="0.05"/>
+
+  <!-- Title -->
+  <text x="100" y="105"
+    font-family="-apple-system, BlinkMacSystemFont, Inter, Segoe UI, sans-serif"
+    font-size="48"
+    fill="#f4f4f5"
+    letter-spacing="3"
+    style="font-weight:500;">
+    Luxco
+  </text>
+
+  <!-- Micro tagline -->
+  <text x="100" y="135"
+    font-family="-apple-system, Inter, sans-serif"
+    font-size="15"
+    fill="#71717a"
+    letter-spacing="1.2">
+    Systems for scale and clarity
+  </text>
+
+  <!-- Ultra subtle right alignment mark -->
+  <circle cx="1080" cy="100" r="2" fill="#ffffff" opacity="0.15"/>
+
+</svg>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-KRUSHI%20AI%20PLATFORM-111827?style=for-the-badge" />
