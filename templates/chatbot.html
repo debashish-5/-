@@ -65,10 +65,10 @@ async function sendMessage() {
     let payload = await response.json();
     clearInterval(typingInterval);
     // Remove typing animation and show the full structure
-    botDiv.innerHTML = '<b>📘 Explanation:</b><br><span id="explain-stream"></span><br><br>' +
-                       '<b>📝 Summary:</b><br><span id="summary-stream"></span><br><br>' +
-                       '<b>💡 Examples:</b><br><span id="example-stream"></span><br><br>' +
-                       '<b>🔗 Links:</b><br><span id="links-stream"></span>';
+    botDiv.innerHTML = '<b>Explanation:</b><br><span id="explain-stream"></span><br><br>' +
+                       '<b>Summary:</b><br><span id="summary-stream"></span><br><br>' +
+                       '<b>Examples:</b><br><span id="example-stream"></span><br><br>' +
+                       '<b>Links:</b><br><span id="links-stream"></span>';
     let explainSpan = document.getElementById('explain-stream');
     let summarySpan = document.getElementById('summary-stream');
     let exampleSpan = document.getElementById('example-stream');
