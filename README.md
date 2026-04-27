@@ -30,7 +30,7 @@
   <rect x="0" y="239" width="1200" height="1" fill="#30363d"/>
 
 </svg>
-
+![Luxco Banner](./luxco-banner.svg)
 ---
 
 <p align="center">
