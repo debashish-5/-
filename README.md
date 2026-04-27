@@ -1,4 +1,4 @@
----
+
 <svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background (soft, not pure black) -->
@@ -30,6 +30,7 @@
   <circle cx="1080" cy="100" r="2" fill="#ffffff" opacity="0.15"/>
 
 </svg>
+---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-KRUSHI%20AI%20PLATFORM-111827?style=for-the-badge" />
